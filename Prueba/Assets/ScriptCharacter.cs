@@ -5,12 +5,16 @@ using UnityEngine;
 public class ScriptCharacter : MonoBehaviour
 {
     bool mergeConflict;
+    bool NoMeEnredo;
     // Start is called before the first frame update
     void Start()
     {
-        if (mergeConflict)
+        if (mergeConflict && NoMeEnredo)
         {
             ResolveConflicts();
+        } else 
+        {
+            Panic();
         }
     }
 
@@ -23,5 +27,9 @@ public class ScriptCharacter : MonoBehaviour
     void ResolveConflicts()
     {
         //resolve all merge conflicts
+    }
+    void Panic()
+    {
+
     }
 }
