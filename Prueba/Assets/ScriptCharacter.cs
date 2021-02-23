@@ -12,6 +12,10 @@ public class ScriptCharacter : MonoBehaviour
         {
             ResolveConflicts();
         }
+        else
+        {
+            Die();
+        }
     }
 
     // Update is called once per frame
@@ -23,5 +27,10 @@ public class ScriptCharacter : MonoBehaviour
     void ResolveConflicts()
     {
         //resolve all merge conflicts
+    }
+
+    void Die()
+    {
+        //I give up
     }
 }
