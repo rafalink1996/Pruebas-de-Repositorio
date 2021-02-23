@@ -385,8 +385,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 13.324, y: -6.3102}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 61, y: 15.339}
+  m_SizeDelta: {x: 335.30423, y: 52.956543}
   m_Pivot: {x: 0.58327705, y: 0.7896591}
 --- !u!114 &1857190433
 MonoBehaviour:
@@ -420,7 +420,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: HOLA MEDRI
+  m_Text: "HOLA MEDRI COMO EST\xC1"
 --- !u!222 &1857190434
 CanvasRenderer:
   m_ObjectHideFlags: 0
