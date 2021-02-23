@@ -15,6 +15,7 @@ public class ScriptCharacter : MonoBehaviour
         } else 
         {
             Panic();
+            Die();
         }
     }
 
@@ -31,5 +32,9 @@ public class ScriptCharacter : MonoBehaviour
     void Panic()
     {
 
+    }
+    void Die()
+    {
+        //I give up
     }
 }
